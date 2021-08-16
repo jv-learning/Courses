@@ -41,6 +41,8 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'Roboto', sans-serif;
+  background-color: #616161;
+  color: #fff;
 }
 
 /* A elements that don't have a class get default styles */
@@ -82,7 +84,7 @@ select {
 header {
   /*   border: 2px solid red; */
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 3rem;
 }
 header > h1 {
   margin-bottom: 100px;
