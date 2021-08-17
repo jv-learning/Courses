@@ -87,7 +87,7 @@ header {
   font-size: 3rem;
 }
 header > h1 {
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 main {
@@ -110,7 +110,7 @@ button {
 }
 
 .question_title {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .question_subtitle {
@@ -139,13 +139,13 @@ button {
 .answer_list_item > button {
   width: 100%;
   height: 100%;
-  background-color: purple;
+  background-color: #d74e09;
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.2rem;
 }
 
 .answer_list_item > button:hover {
@@ -163,6 +163,10 @@ footer {
 
 #btn_next {
   margin-left: 20px;
+  background-color: #f2bb05;
+}
+#btn_next:disabled {
+  background-color: #f1f1f1;
 }
 
 @media only screen and (max-width: 600px) {

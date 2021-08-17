@@ -125,7 +125,7 @@ function showResults() {
   questionTitle.style.display = 'none';
   answersWrapper.style.display = 'none';
   questionSubtitle.style.fontSize = '5rem';
-  questionSubtitle.style.borderBottom = '2px solid #00e9e9';
+  questionSubtitle.style.borderBottom = '4px solid #00e9e9';
   // alert(endMsg);
 }
 
