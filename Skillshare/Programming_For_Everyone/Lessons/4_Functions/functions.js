@@ -31,3 +31,28 @@ function getSum(x, y) {
 console.log(getSum(1, 3));
 const result = getSum(5, 6);
 console.log(result);
+
+// SCOPE
+// context
+// global context
+
+function test() {
+  const myTest = 'here is a test';
+  console.log('test');
+  console.log(num5);
+  console.log(myTest);
+  if (myTest !== 'hey') {
+    const myInnerTest = 'omg';
+    console.log('not hey');
+    console.log(myInnerTest);
+  }
+  // console.log(myInnerTest);
+}
+
+test();
+
+// console.log(num5);
+
+// tip: always go for the most restrictive action and, only when we see we need it, we move it to less restrictive
+// scope
+// const and let
