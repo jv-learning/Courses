@@ -54,5 +54,7 @@ test();
 // console.log(num5);
 
 // tip: always go for the most restrictive action and, only when we see we need it, we move it to less restrictive
-// scope
+// scope, block scope
 // const and let
+
+// higher order functions?
