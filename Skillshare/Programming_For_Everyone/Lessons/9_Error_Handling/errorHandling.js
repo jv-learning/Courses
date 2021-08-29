@@ -64,6 +64,7 @@ try {
 } catch (error) {
   console.warn(`Error occurred when calling greeting function: '${error.message}'`);
 } finally {
+  // used to close streams, database connections, sockets
   console.log('Thanks for calling greetings function');
 }
 
