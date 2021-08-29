@@ -58,3 +58,19 @@ console.log(upper(1234));
 
 // try - catch is mandatory
 // finally is optional. It reads: "regardless if everything was good or we got any errors, execute the code in the finally block"
+
+try {
+  greeting('Juan');
+} catch (error) {
+  console.warn(`Error occurred when calling greeting function: '${error.message}'`);
+} finally {
+  console.log('Thanks for calling greetings function');
+}
+
+function greeting(name) {
+  if (name === 'Unknown') {
+    throw new Error(`Sorry, we don't know you`);
+  } else {
+    console.log(`Hello ${name}`);
+  }
+}
