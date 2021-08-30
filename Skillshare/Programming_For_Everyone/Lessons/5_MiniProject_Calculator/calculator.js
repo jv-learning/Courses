@@ -7,5 +7,9 @@ we want to create a function 'calculate(num1, num2, operator)'
   then continue with the program
   otherwise print a message "The operator {} is not valid" and return null
 2. print the numbers and the operation we are performing
-3. finally, we return the result
+3. finally, we return the result of operating the two numbers
+*. if operator is '+' then add
+*. if operator is '-' then subtract
+*. if operator is '*' then multiply
+*. if operator is '/' then divide
 */
