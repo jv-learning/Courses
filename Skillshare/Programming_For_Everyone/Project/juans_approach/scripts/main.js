@@ -28,6 +28,7 @@ let results = [];
 
 // functions
 function init() {
+  buildFromCurrentQuestion(currentQuestion);
   totalQuestions.textContent = questions.length;
   updateProgress();
 }
@@ -119,14 +120,10 @@ function getCorrectResults() {
 
 function showResults() {
   reset();
-  const endMsg = `That's it! Your score is: ${getCorrectResults()}/${questions.length}`;
   questionSubtitle.textContent = `That's it! Your score is: ${getCorrectResults()}/${questions.length}`;
   questionSubtitle.style.backgroundColor = '#202729';
   questionTitle.style.display = 'none';
   answersWrapper.style.display = 'none';
   questionSubtitle.style.fontSize = '5rem';
   questionSubtitle.style.borderBottom = '4px solid #00e9e9';
-  // alert(endMsg);
 }
-
-buildFromCurrentQuestion(currentQuestion);
